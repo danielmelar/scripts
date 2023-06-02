@@ -1,0 +1,10 @@
+[Unit]
+Description="inicia MoveImagesToWallpapersDirectory"
+
+[Service]
+ExecStart={path of moveImages.sh}
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=default.target
